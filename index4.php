@@ -7,14 +7,14 @@
         <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
         <link rel="stylesheet" type="text/css" href="css/index.css" media="screen">
-        <link rel="stylesheet" type="text/css" href="css/transform3d.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="css/animation.css" media="screen">
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
         <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
-        <title>Css3 transform 3D</title>
+        <title>Css3 transform 2D</title>
     </head>
 
     <body>
@@ -48,7 +48,7 @@
                     <pre>
                         #translate:hover {
                             transition: 1s ease-in-out;
-                            transform: translate3d(100px, -10em, 100px);
+                            transform:translate(500px);
                         }
                     </pre>
                     <img id="translate" src="img/demo.jpg" />
@@ -58,7 +58,7 @@
                     <pre>
                         #scale:hover {
                             transition: 1s ease-in-out;
-                            transform: scale3d(1.5,1.5,0.75);
+                            transform:scale(1,0.5);
                         }
                     </pre>
                     <img id="scale" src="img/demo.jpg" />
@@ -70,7 +70,7 @@
                     <pre>
                         #rotare:hover {
                             transition: 1s ease-in-out;
-                            transform: rotateX(-20deg) rotateY(-40deg) perspective(600px);
+                            transform:rotate(45deg);
                         }
                     </pre>
                     <img id="rotare" src="img/demo.jpg" />
@@ -81,7 +81,7 @@
                     <pre>
                         #skew:hover {
                             transition: 1s ease-in-out;
-                            transform:skew(139deg, 17deg);
+                            transform:skew(35deg);
                         }
                     </pre>
                     <img id="skew" src="img/demo.jpg" />
@@ -92,8 +92,7 @@
                     <h2>5. Muntiple transform</h2>
                     <pre>
                         #muntiple:hover {
-                            transform: translate3d(100px, 176px, 90px);
-                            transform: skew(10deg, 11deg);
+                            transform: rotate(-20deg) skewX(-10deg) scale(0.8);
                         }
                     </pre>
                     <img id="muntiple" src="img/demo.jpg" />
@@ -107,3 +106,4 @@
         </div>
     </body>
 </html>
+<?php echo 'helloword';?>
